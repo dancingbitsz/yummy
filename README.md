@@ -1,2 +1,2 @@
 # yummy
-This is repo for web project with React and Node JS.
+This is repo for web project "Yummy." which is developing in React and Node JS.
