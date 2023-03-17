@@ -1,7 +1,9 @@
 import HomePage from "../modules/HomePage";
-import MenuItemsPage from "../modules/MenuItemsPage";
-import ContactUs from "../modules/ContactUs";
 import AboutPage from "../modules/AboutPage";
+import MenuItemsPage from "../modules/MenuItemsPage";
+import EventsPage from "../modules/EventsPage";
+import ChefsPage from "../modules/ChefsPage";
+import GalleryPage from "../modules/GalleryPage";
 
 const privateRoutes = [
   {
@@ -9,16 +11,24 @@ const privateRoutes = [
     element: HomePage,
   },
   {
+    path: "/about",
+    element: AboutPage,
+  },
+  {
     path: "/menu",
     element: MenuItemsPage,
   },
   {
-    path: "/contact",
-    element: ContactUs,
+    path: "/events",
+    element: EventsPage,
   },
   {
-    path: "/about",
-    element: AboutPage,
+    path: "/chefs",
+    element: ChefsPage,
+  },
+  {
+    path: "/gallery",
+    element: GalleryPage,
   },
 ];
 
